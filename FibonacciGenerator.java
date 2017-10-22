@@ -31,7 +31,7 @@ public class FibonacciGenerator {
 			number = (previousNumber) + (twoNumbersAgo);
 				
 			//print out number
-			System.out.print(number+" ");
+			System.out.println(number);
 				
 			//change vars to be next two numbers
 			twoNumbersAgo = previousNumber;
