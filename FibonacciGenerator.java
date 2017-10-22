@@ -15,7 +15,7 @@ public class FibonacciGenerator {
 	 */
 	public static void main(String[] args) {
 		//declare vars and set initial values
-		int number = 0, previousNumber = 0, twoNumbersAgo = 1;
+		long number = 0, previousNumber = 0, twoNumbersAgo = 1;
 		Scanner input = new Scanner(System.in);
 		
 		//prompt user for nth number
